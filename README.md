@@ -12,15 +12,23 @@ For the data collection of the Publication Venue entity, the category informatio
 The entity-names.txt file has the 150 names selected for the entity. The first column is your ID and the second column is the name of the entity.
 
 id; entity-name
+
 1; the big data architecture for security data and its application to phishing characterization
+
 2; a capacitated plant model for reverse logistics activities
+
 3 case study of software process improvement implementation
+
 ...
 
 The entity-name-pairs.txt file contains the pairs formed with the 150 entity names. The first column is the similarity between the pair. A similar pair has a label equal to 1 and a non-similar pair has a label equal to 0. The second and third columns refer to the IDs of the names being compared.
 
 similarity-label; id-entity-name-1; id-entity-name-2
+
 0; 1; 2
+
 0, 1, 3
+
 0; 1; 4
+
 ...
