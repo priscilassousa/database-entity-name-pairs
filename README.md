@@ -9,6 +9,8 @@ For the collection of data from the Scientific Papers entity, a group of three p
 
 For the data collection of the Publication Venue entity, the category information provided on a call for papers webpage (www.wikicfp.com) was used. Usually each publication venue is assigned to 4 categories (large areas). If two publication venues have more than 3 categories in common, they are labeled as similar. If they do not share any category, they are labeled as not similar. And the pairs that have 1 or 2 categories in common, were labeled manually by the group of 3 people.
 
+The Paper-Scientific-Entity.zip and Publication-Venue-Entity.zip compressed files contain the entity-names.txt and entity-names-pairs.txt files. 
+
 The entity-names.txt file has the 150 names selected for the entity. The first column is your ID and the second column is the name of the entity.
 
 id; entity-name
@@ -21,7 +23,7 @@ id; entity-name
 
 ...
 
-The entity-name-pairs.txt file contains the pairs formed with the 150 entity names. The first column is the similarity between the pair. A similar pair has a label equal to 1 and a non-similar pair has a label equal to 0. The second and third columns refer to the IDs of the names being compared.
+The entity-names-pairs.txt file contains the pairs formed with the 150 entity names. The first column is the similarity between the pair. A similar pair has a label equal to 1 and a non-similar pair has a label equal to 0. The second and third columns refer to the IDs of the names being compared.
 
 similarity-label; id-entity-name-1; id-entity-name-2
 
